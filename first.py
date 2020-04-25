@@ -6,3 +6,4 @@ print('Patient Name:', patient_name,'\n', 'Age:',patient_age, '\n', 'New Patient
 
 patient_weight = input('What is your weight in Kg? ')
 print(patient_name+'  weighs at '+patient_weight)
+
