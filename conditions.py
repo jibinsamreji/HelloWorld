@@ -27,5 +27,30 @@ else:
 print(f"Down payment is : ${down_payment}")
 
 
-# Logical Conditions using "and" "or"
+# Logical Conditions using "and" "or" "not"
 
+has_high_income = True
+has_good_credit = True
+
+if has_good_credit and has_high_income:
+    print('Eligible for loan')
+
+
+# Comparison Operators > < = >= <=
+
+temp = 33
+
+if temp > 30:
+    print("It's a hot day")
+else:
+    print("It's not a hot day")
+
+new_name = input("Please enter name: ")
+char_count = len(new_name)
+
+if char_count < 3:
+    print("Name must be atleast 3 characters")
+elif char_count > 50:
+    print("Name can be a maximum of 50 characters")
+else:
+    print("Name looks good!")
