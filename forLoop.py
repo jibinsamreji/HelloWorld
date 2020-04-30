@@ -23,5 +23,16 @@ for x in range(3):
 # Pattern using Nested Loops
 numbers = [5, 2, 5, 2, 2]
 for value in numbers:
-    print("*" * value)
-    value = 0
+    output = ''
+    for count_x in range(value):
+        output += 'x'
+    print(output)
+
+pattern_value_L = [2, 2, 2, 2, 7]
+for each_value in pattern_value_L:
+    output_string = ''
+    for no_x in range(each_value):
+        output_string += 'x'
+    print(output_string)
+
+
