@@ -4,7 +4,7 @@ x = coordinate[0]
 y = coordinate[1]
 z = coordinate[2]
 
-
+# The above complex code can be limited like the following:
 # unpacking can be done like below: can be used with lists
 x, y, z = coordinate
 print(x)
