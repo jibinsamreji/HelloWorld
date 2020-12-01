@@ -8,29 +8,29 @@ def ops():
     choice = input("Your choice:")
     if choice == "1":
         print("-------Addition--------\n")
-        x = int(input("Enter first number:"))
-        y = int(input("Enter second number:"))
+        x = float(input("Enter first number:"))
+        y = float(input("Enter second number:"))
         res = x + y
         print("Result: " + str(res))
 
     elif choice == "2":
         print("-------Subtraction--------\n")
-        x = int(input("Enter first number:"))
-        y = int(input("Enter second number:"))
+        x = float(input("Enter first number:"))
+        y = float(input("Enter second number:"))
         res = x - y
         print("Result: " + str(res))
 
     elif choice == "3":
         print("-------Multiplication--------\n")
-        x = int(input("Enter first number:"))
-        y = int(input("Enter second number:"))
+        x = float(input("Enter first number:"))
+        y = float(input("Enter second number:"))
         res = x * y
         print("Result: " + str(res))
 
     elif choice == "4":
         print("-------Division--------\n")
-        x = int(input("Enter first number:"))
-        y = int(input("Enter second number:"))
+        x = float(input("Enter first number:"))
+        y = float(input("Enter second number:"))
         res = x / y
         print("Result: " + str(res))
 
