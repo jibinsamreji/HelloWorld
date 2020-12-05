@@ -1,7 +1,7 @@
 # import to import all module functions
-import modules
+from Python_Basics import modules
 
-from modules import kg_to_lbs
+from Python_Basics.modules import kg_to_lbs
 
 print(kg_to_lbs(100))
 
